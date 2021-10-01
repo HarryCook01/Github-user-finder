@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap'); // space-mono reg 400
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap'); //space-mono bold 700
+
+
+$font: 'space Mono',serif ; 
+
+html body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: #141D2F;
+    min-height: 900px;
+    overflow-x: hidden;
+    h1{
+        color: white;
+        font-family: $font;
+        position: relative;
+        top: 25px;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .switch1{
+        color: white;
+        position: relative;
+        left: 250px;
+        top: -15px;
+        font-size: 20px;
+        font-family: $font;
+        background-image: url('/img/icon-sun.svg');
+        background-repeat: no-repeat;
+        background-position-x: 70px;
+        background-position-y: 5px;
+        &:hover {
+            color: #90A4D4;
+        }
+    }
+    .switch2{
+        color: grey;
+        position: relative;
+        left: 250px;
+        top: -15px;
+        font-size: 20px;
+        font-family: $font;
+        background-image: url('/img/icon-moon.svg');
+        background-repeat: no-repeat;
+        background-position-x: 70px;
+        background-position-y: 5px;
+        &:hover{
+            color: black;
+        }
+    }
+    .searchbar{
+        button{
+            position: relative;
+            left: 245px;
+            top: -26px;
+            width: 100px;
+            padding: 15px;
+            margin-top: -10px;
+            margin-bottom: -10px;
+            border-radius: 20px;
+            color: white;
+            background-color: #0079FF;
+            &:hover{
+                background-color: #90A4D4;
+            }
+        }
+        #myForm{
+            .form-group{
+                input{
+                    padding: 20px;
+                    background-color: #1E2A47;
+                    border-radius: 20px;
+                    position: relative;
+                    top: 25px;
+                    color: white;
+                    text-indent: 20px;
+                    max-width: 350px;
+                    
+                    
+                }
+                .form-control{
+                    background-image: url('/img/icon-search.svg');
+                    background-repeat: no-repeat;
+                    background-position-y: center;
+                    background-position-x: 10px;
+                    
+                    
+                }
+            }
+        }
+    }
+    .data{
+        background-color:#1E2A47 ;
+        padding: 20px;
+        min-height: 617px;
+        border-radius: 20px;
+        position: relative;
+        max-width: 350px;
+        
+        .image{
+            img{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                position: relative;
+                left: 10px;
+                top: 25px;
+            }
+            h1{
+                position: relative;
+                left: 110px;
+                top: -60px;
+                font-size: 26px;  
+            }
+            h5{
+                color: #0079ff;
+                font-weight: 300;
+                font-size: 16px;
+                position: relative;
+                left: 110px;
+                top: -65px;
+            }
+            h3{
+                color: white;
+                position: relative;
+                font-size: 18px;
+                left: 110px;
+                top: -60px;
+                
+            }
+            p{
+                color: white;
+            }
+            .data-box{
+                padding: 20px;
+                background-color: #141D2F;
+                border-radius: 20px;
+                p{
+                    color: white;
+                    font: $font;
+                    display: inline;  
+                }
+                
+                #space{position: relative; left: 40px;}
+                #space2{position: relative; left: 70px;}
+                #space3{position: relative; left: 80px; font-size: 24px;}
+                #space4{position: relative; left: 145px;font-size: 24px;}
+                #space5{position: relative; left: 15px; font-size: 24px;}
+            }
+            .location{
+                color: white;
+                background-image: url('/img/icon-location.svg');
+                background-repeat: no-repeat;
+                padding: 10px;
+                background-position-y: center;
+                text-align: center;
+            }
+            .blog{
+                color: white;
+                background-image: url('/img/icon-website.svg');
+                background-repeat: no-repeat;
+                text-align: center;
+            }
+            .twitter{
+                color: white;
+                background-image: url('/img/icon-twitter.svg');
+                text-align: center;
+                background-repeat: no-repeat;
+            }
+            .company{
+                color: white;
+                background-image: url('/img/icon-company.svg');
+                background-repeat: no-repeat;
+                text-align: center;
+            }
+        }
+    }      
+}
+@media only screen and (min-width:600px){
+  
+    .container{
+        .switch1{
+            position: relative;
+            left: 320px;
+        }
+        .switch2{
+            position: relative;
+            left: 320px;
+        }
+        .searchbar{
+            button{
+                position: relative;
+                left: 325px;
+            }
+            #myForm{
+                .form-group{
+                    input{
+                        min-width: 430px;
+                        
+                    }
+                }
+            }
+        }
+        .data{
+            min-width: 430px;
+            .image{
+                .data-box{
+                    #space{position: relative; left: 90px;}
+                    #space2{position: relative; left: 140px;}
+                    #space3{position: relative; left: 120px; font-size: 24px;}
+                    #space4{position: relative; left: 195px;font-size: 24px;}
+                }
+                .location{
+                    position: relative;
+                    top: 50px;
+                    text-align: left;
+                    text-indent: 25px;
+                    left: 5px;
+                }
+                .blog{
+                    position: relative;
+                    text-align: left;
+                    top: 60px;
+                    text-indent: 30px;
+                }
+                .twitter{
+                    position: relative;
+                    text-align: left;
+                    left: 230px;
+                    top: -55px;
+                    text-indent: 30px;
+                }
+                .company{
+                    position: relative;
+                    text-align: left;
+                    left: 230px;
+                    top: -35px;
+                    text-indent: 30px;
+                }
+               
+            }
+            
+        }
+    }
+}
+
+@media only screen and (min-width:1000px){
+    
+    .container{
+        min-width: 2000px;
+        min-height: 1200px;
+        overflow-x: hidden;
+        
+        .logo{
+          position: relative;
+          h1{
+              position: relative;
+              left: 400px;
+          }
+        }
+        .switch1{
+            position: relative;
+            left: 1200px;
+        }
+        .switch2{
+            position: relative;
+            left: 1200px;
+        }
+        .searchbar{
+            button{
+                position: relative;
+                left: 1195px;
+            }
+            #myForm{
+                .form-group{
+                    input{
+                        min-width: 900px;
+                        position: relative;
+                        left: 400px;
+                        
+                    }
+                }
+            }
+        }
+        .data{
+            min-width: 900px;
+            position: relative;
+            max-height: 400px;
+            left: 400px;
+            .image{
+                img{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    position: relative;
+                    left: 10px;
+                    top: 25px;
+                }
+                h1{
+                    position: relative;
+                    left: 260px;
+                    top: -160px;
+                    font-size: 26px;  
+                }
+                h5{
+                    color: #0079ff;
+                    font-weight: 300;
+                    font-size: 16px;
+                    position: relative;
+                    left: 260px;
+                    top: -165px;
+                }
+                h3{
+                    color: white;
+                    position: relative;
+                    font-size: 18px;
+                    left: 690px;
+                    top: -220px;
+                    
+                }
+                p{
+                    color: white;
+                    position: relative;
+                    left: 260px;
+                    top: -180px;
+                }
+                .data-box{
+                    padding: 20px;
+                    background-color: #141D2F;
+                    border-radius: 20px;
+                    width: 600px;
+                    position: relative;
+                    left: 260px;
+                    top: -80px;
+                    p{
+                        color: white;
+                        font: $font;
+                        display: inline;  
+                    }
+                    #repo{position: relative;left: 80px; top: 0px;}
+                    #space{position: relative; left: 180px;top: 0px;}
+                    #space2{position: relative; left: 290px;top: 0px;}
+                    #space3{position: relative; left: 220px;top: 0px; font-size: 24px;}
+                    #space4{position: relative; left: 365px;top:0px; font-size: 24px;}
+                    #space5{position: relative; left: 85px;top: 0px; font-size: 24px;}
+                }
+                .location{
+                    color: white;
+                    padding: 10px;
+                    background-position-y: center;
+                    text-align: left;
+                    position: relative;
+                    left: 260px;
+                    text-indent: 25px;
+                    top: -80px;
+                }
+                .blog{
+                    color: white;
+                    text-align:left;
+                    position: relative;
+                    left: 260px;
+                    text-indent: 25px;
+                    top: -80px;
+                }
+                .twitter{
+                    color: white;
+                    text-align:left;
+                    position: relative;
+                    left: 650px;
+                    text-indent: 25px;
+                    top: -182px;
+                    
+                }
+                .company{
+                    color: white;
+                    text-align:left;
+                    position: relative;
+                    left: 650px;
+                    text-indent: 25px;
+                    top: -178px;
+                }
+            }
+        }
+    }
+    
+}

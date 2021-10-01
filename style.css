@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+html body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: #141D2F;
+  min-height: 900px;
+  overflow-x: hidden;
+}
+
+.container h1 {
+  color: white;
+  font-family: "space Mono", serif;
+  position: relative;
+  top: 25px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.container .switch1 {
+  color: white;
+  position: relative;
+  left: 250px;
+  top: -15px;
+  font-size: 20px;
+  font-family: "space Mono", serif;
+  background-image: url("/img/icon-sun.svg");
+  background-repeat: no-repeat;
+  background-position-x: 70px;
+  background-position-y: 5px;
+}
+
+.container .switch1:hover {
+  color: #90A4D4;
+}
+
+.container .switch2 {
+  color: grey;
+  position: relative;
+  left: 250px;
+  top: -15px;
+  font-size: 20px;
+  font-family: "space Mono", serif;
+  background-image: url("/img/icon-moon.svg");
+  background-repeat: no-repeat;
+  background-position-x: 70px;
+  background-position-y: 5px;
+}
+
+.container .switch2:hover {
+  color: black;
+}
+
+.container .searchbar button {
+  position: relative;
+  left: 245px;
+  top: -26px;
+  width: 100px;
+  padding: 15px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  border-radius: 20px;
+  color: white;
+  background-color: #0079FF;
+}
+
+.container .searchbar button:hover {
+  background-color: #90A4D4;
+}
+
+.container .searchbar #myForm .form-group input {
+  padding: 20px;
+  background-color: #1E2A47;
+  border-radius: 20px;
+  position: relative;
+  top: 25px;
+  color: white;
+  text-indent: 20px;
+  max-width: 350px;
+}
+
+.container .searchbar #myForm .form-group .form-control {
+  background-image: url("/img/icon-search.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+}
+
+.container .data {
+  background-color: #1E2A47;
+  padding: 20px;
+  min-height: 617px;
+  border-radius: 20px;
+  position: relative;
+  max-width: 350px;
+}
+
+.container .data .image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+  top: 25px;
+}
+
+.container .data .image h1 {
+  position: relative;
+  left: 110px;
+  top: -60px;
+  font-size: 26px;
+}
+
+.container .data .image h5 {
+  color: #0079ff;
+  font-weight: 300;
+  font-size: 16px;
+  position: relative;
+  left: 110px;
+  top: -65px;
+}
+
+.container .data .image h3 {
+  color: white;
+  position: relative;
+  font-size: 18px;
+  left: 110px;
+  top: -60px;
+}
+
+.container .data .image p {
+  color: white;
+}
+
+.container .data .image .data-box {
+  padding: 20px;
+  background-color: #141D2F;
+  border-radius: 20px;
+}
+
+.container .data .image .data-box p {
+  color: white;
+  font: "space Mono", serif;
+  display: inline;
+}
+
+.container .data .image .data-box #space {
+  position: relative;
+  left: 40px;
+}
+
+.container .data .image .data-box #space2 {
+  position: relative;
+  left: 70px;
+}
+
+.container .data .image .data-box #space3 {
+  position: relative;
+  left: 80px;
+  font-size: 24px;
+}
+
+.container .data .image .data-box #space4 {
+  position: relative;
+  left: 145px;
+  font-size: 24px;
+}
+
+.container .data .image .data-box #space5 {
+  position: relative;
+  left: 15px;
+  font-size: 24px;
+}
+
+.container .data .image .location {
+  color: white;
+  background-image: url("/img/icon-location.svg");
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-position-y: center;
+  text-align: center;
+}
+
+.container .data .image .blog {
+  color: white;
+  background-image: url("/img/icon-website.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.container .data .image .twitter {
+  color: white;
+  background-image: url("/img/icon-twitter.svg");
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.container .data .image .company {
+  color: white;
+  background-image: url("/img/icon-company.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .container .switch1 {
+    position: relative;
+    left: 320px;
+  }
+  .container .switch2 {
+    position: relative;
+    left: 320px;
+  }
+  .container .searchbar button {
+    position: relative;
+    left: 325px;
+  }
+  .container .searchbar #myForm .form-group input {
+    min-width: 430px;
+  }
+  .container .data {
+    min-width: 430px;
+  }
+  .container .data .image .data-box #space {
+    position: relative;
+    left: 90px;
+  }
+  .container .data .image .data-box #space2 {
+    position: relative;
+    left: 140px;
+  }
+  .container .data .image .data-box #space3 {
+    position: relative;
+    left: 120px;
+    font-size: 24px;
+  }
+  .container .data .image .data-box #space4 {
+    position: relative;
+    left: 195px;
+    font-size: 24px;
+  }
+  .container .data .image .location {
+    position: relative;
+    top: 50px;
+    text-align: left;
+    text-indent: 25px;
+    left: 5px;
+  }
+  .container .data .image .blog {
+    position: relative;
+    text-align: left;
+    top: 60px;
+    text-indent: 30px;
+  }
+  .container .data .image .twitter {
+    position: relative;
+    text-align: left;
+    left: 230px;
+    top: -55px;
+    text-indent: 30px;
+  }
+  .container .data .image .company {
+    position: relative;
+    text-align: left;
+    left: 230px;
+    top: -35px;
+    text-indent: 30px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    min-width: 2000px;
+    min-height: 1200px;
+    overflow-x: hidden;
+  }
+  .container .logo {
+    position: relative;
+  }
+  .container .logo h1 {
+    position: relative;
+    left: 400px;
+  }
+  .container .switch1 {
+    position: relative;
+    left: 1200px;
+  }
+  .container .switch2 {
+    position: relative;
+    left: 1200px;
+  }
+  .container .searchbar button {
+    position: relative;
+    left: 1195px;
+  }
+  .container .searchbar #myForm .form-group input {
+    min-width: 900px;
+    position: relative;
+    left: 400px;
+  }
+  .container .data {
+    min-width: 900px;
+    position: relative;
+    max-height: 400px;
+    left: 400px;
+  }
+  .container .data .image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    top: 25px;
+  }
+  .container .data .image h1 {
+    position: relative;
+    left: 260px;
+    top: -160px;
+    font-size: 26px;
+  }
+  .container .data .image h5 {
+    color: #0079ff;
+    font-weight: 300;
+    font-size: 16px;
+    position: relative;
+    left: 260px;
+    top: -165px;
+  }
+  .container .data .image h3 {
+    color: white;
+    position: relative;
+    font-size: 18px;
+    left: 690px;
+    top: -220px;
+  }
+  .container .data .image p {
+    color: white;
+    position: relative;
+    left: 260px;
+    top: -180px;
+  }
+  .container .data .image .data-box {
+    padding: 20px;
+    background-color: #141D2F;
+    border-radius: 20px;
+    width: 600px;
+    position: relative;
+    left: 260px;
+    top: -80px;
+  }
+  .container .data .image .data-box p {
+    color: white;
+    font: "space Mono", serif;
+    display: inline;
+  }
+  .container .data .image .data-box #repo {
+    position: relative;
+    left: 80px;
+    top: 0px;
+  }
+  .container .data .image .data-box #space {
+    position: relative;
+    left: 180px;
+    top: 0px;
+  }
+  .container .data .image .data-box #space2 {
+    position: relative;
+    left: 290px;
+    top: 0px;
+  }
+  .container .data .image .data-box #space3 {
+    position: relative;
+    left: 220px;
+    top: 0px;
+    font-size: 24px;
+  }
+  .container .data .image .data-box #space4 {
+    position: relative;
+    left: 365px;
+    top: 0px;
+    font-size: 24px;
+  }
+  .container .data .image .data-box #space5 {
+    position: relative;
+    left: 85px;
+    top: 0px;
+    font-size: 24px;
+  }
+  .container .data .image .location {
+    color: white;
+    padding: 10px;
+    background-position-y: center;
+    text-align: left;
+    position: relative;
+    left: 260px;
+    text-indent: 25px;
+    top: -80px;
+  }
+  .container .data .image .blog {
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 260px;
+    text-indent: 25px;
+    top: -80px;
+  }
+  .container .data .image .twitter {
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 650px;
+    text-indent: 25px;
+    top: -182px;
+  }
+  .container .data .image .company {
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 650px;
+    text-indent: 25px;
+    top: -178px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+.container .switch1{
+    display: none;
+}
+
+.container{
+    background-color: #f6f8ff;
+}
+
+.container h1{
+    color: black;
+}
+
+.container .data{
+    background-color: white;
+}
+
+.container .searchbar #myForm .form-group input{
+    background-color: white;
+    color: black;
+}
+
+.container .data #result .data-box{
+    background-color: #f6f8ff;
+    
+}
+
+.container .data #result .data-box p{
+    color: black;
+}
+
+.container .data #result .location{
+    color: black;
+}
+
+.container .data #result .blog{
+    color: black;
+}
+
+.container .data #result .twitter{
+    color: black;
+}
+
+.container .data #result .company{
+    color: black;
+}
+
+.container .data #result h3{
+    color: black;
+}
+
+.container .data #result p{
+    color: black;
+}
